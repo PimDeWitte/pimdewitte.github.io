@@ -1,0 +1,184 @@
+/* Navigation */
+
+.navigation {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.navigation ul {
+    margin-right: 30px;
+    text-align: center;
+    float: right;
+}
+
+.navigation ul li {
+    color: #212121;
+    font-family: 'Vollkorn', serif;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1em;
+    margin-left: 30px;
+
+}
+
+.logoNav {
+    height: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/* Main text module */
+
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 100;
+    line-height: 1.1;
+    color: inherit;
+}
+.scrollDowccnArrow {
+    position:absolute;
+    bottom: 0;
+    margin-left: auto;
+}
+
+.absolute-center {
+
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+
+}
+
+.absolute-center h1 {
+    font-family: 'Vollkorn', serif;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    color: #ffffff;
+    text-align: center;
+}
+
+.introduction {
+    color: white;
+    font-family: 'Vollkorn', serif;
+    font-size: 1.2em;
+}
+
+
+.contact-footer {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-footer .contact-icon{
+    font-family: 'Vollkorn', serif;
+    margin-top:20px;
+    margin-left: 10px;
+    width: 10%;
+    min-width: 50px;
+}
+
+/* Sections
+        * --------------------------------------- */
+#section0 {
+    background: url(../img/backgrounds/sgrid_dark.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#section1 {
+    background: url(../img/backgrounds/yt-bg.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#section2 {
+    background: url(../img/backgrounds/ebola.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#section3 {
+    background: url(../img/backgrounds/17.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+
+.textArea {
+    background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
+    background: rgba(0, 0, 0, .5);
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    padding: 2em;
+    color: #ffffff;
+    line-height: 15px;
+}
+
+.textArea p {
+    font-size: 0.9em;
+    margin-top: 30px;
+}
+.textArea h3 {
+    font-size: 1.4em;
+    margin-top: 30px;
+}
+
+.textArea .logo {
+    height: 5em;
+}
+
+.soulsplitIcon {
+    background: url(../img/icons/soulsplit.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.whitespellIcon {
+    background: url(../img/icons/whitespell-og.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
