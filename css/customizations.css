@@ -46,6 +46,10 @@ h1 {
     line-height: 1.1;
     color: inherit;
 }
+
+li {
+    margin-top:20px;
+}
 .scrollDowccnArrow {
     position:absolute;
     bottom: 0;
@@ -54,6 +58,7 @@ h1 {
 
 .absolute-center {
 
+    margin-top:200px;
     /* Internet Explorer 10 */
     display:-ms-flexbox;
     -ms-flex-pack:center;
@@ -106,37 +111,26 @@ h1 {
     min-width: 50px;
 }
 
+
+a {
+    color: #e8e8e8;
+}
+
+a:visited {
+    color: #e8e8e8;
+}
+
+
 /* Sections
         * --------------------------------------- */
-#section0 {
+html {
     background: url(../img/backgrounds/sgrid_dark.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-#section1 {
-    background: url(../img/backgrounds/yt-bg.jpg) no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#section2 {
-    background: url(../img/backgrounds/ebola.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
-#section3 {
-    background: url(../img/backgrounds/17.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 
 .section {
     min-height: 100vh;

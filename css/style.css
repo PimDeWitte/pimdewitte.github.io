@@ -31,6 +31,9 @@ h1, h2 {
     font-family: 'Vollkorn', serif;
   font-weight: bold; }
 
+li {
+  margin-top:10px;
+}
 /* -------------------------------- 
 
 Modules - reusable parts of our design
