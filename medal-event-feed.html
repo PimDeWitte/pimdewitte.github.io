@@ -253,7 +253,7 @@
                     trendingOffset += 1; // increase offset by 1 to keep going down trending feed
 
 
-                    fetch(`https://developers.medal.tv/v1/trending?categoryId=${categoryId}&muted=1&height=400&width=560&limit=1&autoplay=1&muted=1&offset=${trendingOffset}`, {
+                    fetch(`https://developers.medal.tv/v1/search?text=eminem&categoryId=${categoryId}&muted=1&height=400&width=560&limit=1&autoplay=1&muted=1&offset=${trendingOffset}`, {
                         headers: {
                             'Authorization': PUBLIC_API_KEY
                         }
